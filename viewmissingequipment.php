@@ -275,6 +275,24 @@ V I E W &emsp; M I S S I N G&emsp; E Q U I P M E N T
 
 
 
+<form method="POST" action="reportmissing.php">
+
+
+<p style="font-family:Agency FB;color:black;font-size:20px;line-height:120%;text-align:left; margin-left:270px">Start Date
+<input style="color:green; border-color:green;text-align:left;margin-left:20px" type="date" name="begin" required>
+
+&emsp;&emsp;&emsp;End Date
+<input style="color:green; border-color:green;text-align:left;margin-left:20px" type="date" name="last" required>
+&emsp;&emsp;
+
+<input style="font-family:Agency FB;font-size:20px;color:white; background-color:green;border-color:white; text-align:left;margin-left:-20px" type="submit" class="button" value="    Generate Report    ">
+</p>
+
+</form>
+
+
+
+
 <a href="detailsmissing.php">
 <img src="images/showdetails.png" style="width:130px; height:55px; margin-left: 0px;margin-top:10px"/></a></p>
 

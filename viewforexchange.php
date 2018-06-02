@@ -268,6 +268,24 @@ V I E W &emsp; I T E M S&emsp; F O R&emsp; E X C H A N G E
 <a href="printforexchange.php">
 <input type="image"<img src="pdf.png" style="width:200px; height:120px; margin-left: 60px"/></a></p>
 
+
+<form method="POST" action="reportforexchange.php">
+
+
+<p style="font-family:Agency FB;color:black;font-size:20px;line-height:120%;text-align:left; margin-left:270px">Start Date
+<input style="color:green; border-color:green;text-align:left;margin-left:20px" type="date" name="begin" required>
+
+&emsp;&emsp;&emsp;End Date
+<input style="color:green; border-color:green;text-align:left;margin-left:20px" type="date" name="last" required>
+&emsp;&emsp;
+
+<input style="font-family:Agency FB;font-size:20px;color:white; background-color:green;border-color:white; text-align:left;margin-left:-20px" type="submit" class="button" value="    Generate Report    ">
+</p>
+
+</form>
+
+
+
 </br></br>
 
 
