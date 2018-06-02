@@ -143,7 +143,7 @@ goto end;}
         
         .main-body{
 	        width: 1300px;
-	        height: 800px;
+	        height: 700px;
 	        border-style: solid;
 	        border-width: 5px;
 	        border-color: #333;
@@ -210,7 +210,6 @@ if ($_COOKIE['email']=="ruben.frane@dlsl.edu.ph")
 <a href="home.php">
 <img src="images/home.png" style="width:150px; height:55px;margin-top:0px;margin-left:150px;margin-right:150px"/></a>  
 
-
 <p style="font-family:Agency FB;font-size:20px;line-height:10%;text-align:left;margin-left:520px;color:white;margin-top:-30px"><b>
 
 <?php
@@ -237,7 +236,7 @@ if ($_COOKIE['password']=="dlsl1")
 ?>
 
 <a href="home2.php">
-<img src="images/home.png" style="width:150px; height:55px;margin-top:0px;margin-left:150px;margin-right:150px"/></a> 
+<img src="images/home.png" style="width:150px; height:55px;margin-top:0px;margin-left:150px;margin-right:150px"/></a>  
 
 <p style="font-family:Agency FB;font-size:20px;line-height:10%;text-align:left;margin-left:520px;color:white;margin-top:-30px"><b>
 
@@ -293,24 +292,25 @@ Logout
 
 </br>
 
-<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:200px">Is my information secure? </p>
+<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:200px">Can the inventory be viewed by different users at the same time? </p>
 </br>
-<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:300px">Yes. Make sure you choose a cloud-based service that uses the highest level of encryption, industry best practices,</br> and enterprise level security and hosting. And, one that takes care of the nightly backups and continuity of your data.</p>
-
-</br>
-<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:200px">Who can access the Inventory Manager? </p>
-</br>
-<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:300px">The onventory system is only available for the access of ICTC Staffs and administrator. The functions available are exclusive</br> for the use of ICTC staffs and administrators and error might take place if unauthorize people make changes to the inventory.</p>
-
-
-</br>
-<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:200px">Will my work be easier if I use this system? </p>
-</br>
-<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:300px">Yes! Instead of combing through stacks of paper, spreadsheets, and Post-it notes, you can access everything instantly.</br> It is an organizational boon. Time that was spent on searching for the right information can now be used for making artwork.</p>
+<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:300px">Yes, but only if opened by two persons with different accounts. Confidential data are stored within the system</br> and can only be accessed by ICTC's authorized personnel.
 </br>
 
+
+<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:200px">What would happen if two users are accessing the inventory to record the same data concurrently? </p>
+</br>
+<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:300px">The same performance will be givem by the system. It is an online system so issues are not likely to be encountered.</p>
+
+
+</br>
+<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:200px">How will I be able to identify the offices that are associated with the inventory system? </p>
+</br>
+<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:300px">There is a drop-down menu beside the text in which you can input the offices in.</p>
+</br>
 <a href="faq2.php">
 <p style="font-family:Agency FB;font-size:20px;line-height:10%;text-align:right;margin-right:200px;color:green;margin-top:10px"><b>Next</p></b>
+
 
 <?php
 
