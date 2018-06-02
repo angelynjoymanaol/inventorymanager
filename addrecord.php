@@ -297,7 +297,6 @@ Logout
 
 
 
-
 <p style="font-family:Agency FB;color:black;font-size:20px;line-height:120%;text-align:left; margin-left:500px">Date Received
 <input style="color:green; border-color:green;text-align:left;margin-left:30px" type="date" name="received" required></p>
 
@@ -317,28 +316,34 @@ Logout
 
 
 <p style="font-family:Agency FB;color:black;font-size:20px;line-height:120%;text-align:left; margin-left:500px">Item:
+
 <select style="color:green; border-color:green;text-align:left;margin-left:90px" name="item">
-		<option value="AVR">&emsp;AVR&emsp;</option>
-		<option value="Casette">&emsp;Casette&emsp;</option>
-		<option value="CPU">&emsp;CPU&emsp;</option>
-		<option value="CPU 2">&emsp;CPU 2&emsp;</option>
-		<option value="Keyboard">&emsp;Keyboard&emsp;</option>
-		<option value="LAN Connector">&emsp;LAN Connector&emsp;</option>
-		<option value="Laptop Acer">&emsp;Laptop Acer&emsp;</option>
-		<option value="Laptop HP">&emsp;Laptop HP&emsp;</option>
-		<option value="Monitor 14">&emsp;Monitor 14 in&emsp;</option>
-		<option value="Monitor 16">&emsp;Monitor 16 in&emsp;</option>
-		<option value="Monitor 18">&emsp;Monitor 18 in&emsp;</option>
-		<option value="Minitor Mac">&emsp;Monitor Mac&emsp;</option>
-		<option value="Mouse Wireless">&emsp;Wireless Mouse&nbsp</option>
-		<option value="Mouse Cabled">&emsp;Wired Mouse&emsp;</option>
-		<option value="Speaker Small">&emsp;Small Speaker&emsp;</option>
-		<option value="Speaker Large">&emsp;Large Speaker&emsp;</option>
-		<option value="Television">&emsp;Television&emsp;</option>
-		<option value="VGA Connector">&emsp;VGA Connector&nbsp</option>
-		<option value="Wifi Access Point">&emsp;Wifi Access Point&nbsp</option>
+<?php
+
+
+
+include 'dbconnect.inc';
+
+
+
+$query='SELECT * FROM tools';
+$result=mysql_query($query);
+$num_results=mysql_num_rows($result);
+
+
+while($row=mysql_fetch_assoc($result))
+{
+?>
+<option value="<?php echo $row['Tools']?> ">
+<?php echo $row['Tools'] ?>
+</option>
+	<?php
+}
+?>
 	</select>
+	
 </p>
+
 
 <p style="font-family:Agency FB;color:black;font-size:20px;line-height:120%;text-align:left; margin-left:500px">Quantity
 <input style="color:green; border-color:green;text-align:left;margin-left:70px" type="number" name="quantity" min="1" max="5" required></p>
