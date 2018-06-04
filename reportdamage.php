@@ -141,7 +141,7 @@ goto end;}
         
         .main-body{
 	        width: 1300px;
-	        height: 1100px;
+	        height: 700px;
 	        border-style: solid;
 	        border-width: 5px;
 	        border-color: #333;
