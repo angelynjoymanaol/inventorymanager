@@ -266,10 +266,21 @@ header('Location:home2.php');
 </br>
 <a style="color:green;" href="viewretiredequipment.php"><p style="font-family:Agency FB;color:black;font-size:50px;line-height:120%;text-align:left;margin-left:250px;margin-top:-30px"> << </a>
 V I E W &emsp; R E T I R E D&emsp; E Q U I P M E N T
+</p>
 
+<p style="font-family:Agency FB;color:black;font-size:30px;line-height:120%;text-align:right;margin-right:50px;margin-top:-50px">
+<button onclick="myFunction()"> Print Report </button>
+
+</p>
+
+
+<script>
+	function myFunction() {
+	window.print();
+	}
+</script>
 
 <?php
-echo "<a href=\"reportretire2.php?begin={$_POST['begin']}&&last={$_POST['last']}\"><img src=\"pdf2.png \"  /></a>";
 
 
 $co=0;
@@ -426,45 +437,6 @@ color: black;
 </style>
 
 
-
-
-
-
-
-
-
-</div>
-</center>
-
-</div>
-
-<br>
-<footer>
-	
-	<div class="footer-info">
-		<br>
-	<center>
-	<div class="footer-img">
-	<img src="images/footer-img1.png">
-	<img src="images/footer-img2.png">
-	</div>
-
-	<br>
-	De La Salle Lipa; ICTC<br>
-	1962 JP Laurel National Highway<br>
-	Mataas Na Lupa, Lipa City 4217<br>
-	Tel. No. 63.43.756-5555<br>
-	Telefax: 756-3117<br>
-	© Copyright 2018
-	<br>
-	</center>
-	</div>
-		
-
-</footer>
-
-</body>
-</html>
 
 
 

@@ -266,11 +266,21 @@ header('Location:home2.php');
 </br>
 <a style="color:green;" href="viewmissingequipment.php"><p style="font-family:Agency FB;color:black;font-size:50px;line-height:120%;text-align:left;margin-left:250px;margin-top:-30px"> << </a>
 V I E W &emsp; D E P L O Y E D&emsp; E Q U I P M E N T
+</p>
 
+<p style="font-family:Agency FB;color:black;font-size:30px;line-height:120%;text-align:right;margin-right:50px;margin-top:-50px">
+<button onclick="myFunction()"> Print Report </button>
+
+</p>
+
+
+<script>
+	function myFunction() {
+	window.print();
+	}
+</script>
 
 <?php
-echo "<a href=\"reportmissing2.php?begin={$_POST['begin']}&&last={$_POST['last']}\"><img src=\"pdf2.png \"  /></a>";
-
 
 $co=0;
 
