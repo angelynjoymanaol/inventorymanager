@@ -378,8 +378,8 @@ $num_results=mysql_num_rows($result);
 while($row=mysql_fetch_assoc($result))
 {
 ?>
-<option value="<?php echo $row['Tools']?> ">
-<?php echo $row['Tools'] ?>
+<option value="<?php echo $row['Tools']?>">
+<?php echo $row['Tools']; ?>
 </option>
 	<?php
 }

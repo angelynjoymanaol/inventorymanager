@@ -35,26 +35,16 @@ while($row=mysql_fetch_assoc($result))
 {
 if ($_POST['office']==$row['office'] AND $_POST['item']==$row['item'] AND $_POST['quantity']<=$row['quantity'])
 {
-$counter=$counter+1;
+goto proceed;
+$counter=1;
 }
 
 }
-
 
 if ($counter==0)
 {
 goto end;
 }
-
-if ($counter>0)
-{
-goto proceed;
-}
-
-
-
-
-
 
 proceed:
 $query='SELECT * FROM tools';

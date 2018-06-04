@@ -9,6 +9,15 @@
 include 'dbconnect.inc';
 
 
+$query='SELECT * FROM deploy';
+$result=mysql_query($query);
+$num_results=mysql_num_rows($result);
+
+
+$row=mysql_fetch_assoc($result);
+
+$query="UPDATE tools SET ForExchange=ForExchange+'$_POST[quantity]' WHERE Tools='$_POST[item]'";
+$is_query_successful=mysql_query($query);
 
 
 $query="INSERT INTO forexchange(purchase, date, supplier, deliveryman, item, quantity, reason)

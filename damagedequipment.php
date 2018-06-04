@@ -368,8 +368,7 @@ Logout
 </p>
 
 
-
-<p style="font-family:Agency FB;color:black;font-size:20px;line-height:120%;text-align:left; margin-left:400px">Item:
+<p style="font-family:Agency FB;color:black;font-size:20px;line-height:120%;text-align:left; margin-left:500px">Item:
 
 <select style="color:green; border-color:green;text-align:left;margin-left:90px" name="item">
 <?php
@@ -388,8 +387,8 @@ $num_results=mysql_num_rows($result);
 while($row=mysql_fetch_assoc($result))
 {
 ?>
-<option value="<?php echo $row['Tools']?> ">
-<?php echo $row['Tools'] ?>
+<option value="<?php echo $row['Tools']?>">
+<?php echo $row['Tools']; ?>
 </option>
 	<?php
 }
@@ -397,7 +396,6 @@ while($row=mysql_fetch_assoc($result))
 	</select>
 	
 </p>
-
 
 
 <p style="font-family:Agency FB;color:black;font-size:20px;line-height:120%;text-align:left; margin-left:400px">Person-in-charge

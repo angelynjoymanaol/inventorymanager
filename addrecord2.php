@@ -45,14 +45,6 @@ goto end;}
 	?>
 
 
-
-<p style="font-family:Agency FB;font-size:20px;line-height:120%;text-align:center;margin-top:80px"><b>Successfully logged in to admin's account!</p></b>
-
-
-
-</p></br>
-
-
 goto end;
 
 

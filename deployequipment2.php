@@ -31,25 +31,16 @@ while($row=mysql_fetch_assoc($result))
 {
 if ($_POST['item']==$row['Tools'] AND $_POST['quantity']<=$row['Onhand'])
 {
-$counter=$counter+1;
-}
-
-}
-
-
-if ($counter>0)
-{
 goto proceed;
-}
+$counter=1;
+}}
 
 
-if ($counter==0)
+
+if($counter==0)
 {
 goto end;
 }
-
-
-
 
 
 proceed:

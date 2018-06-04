@@ -314,7 +314,6 @@ Logout
 <input style="color:green; border-color:green;text-align:left;margin-left:68px" type="text" name="supplier" required></p>
 
 
-
 <p style="font-family:Agency FB;color:black;font-size:20px;line-height:120%;text-align:left; margin-left:500px">Item:
 
 <select style="color:green; border-color:green;text-align:left;margin-left:90px" name="item">
@@ -334,8 +333,8 @@ $num_results=mysql_num_rows($result);
 while($row=mysql_fetch_assoc($result))
 {
 ?>
-<option value="<?php echo $row['Tools']?> ">
-<?php echo $row['Tools'] ?>
+<option value="<?php echo $row['Tools']?>">
+<?php echo $row['Tools']; ?>
 </option>
 	<?php
 }
