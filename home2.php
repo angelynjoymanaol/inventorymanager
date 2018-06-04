@@ -187,7 +187,7 @@ if ($_COOKIE['password']=="dlsl1")
 <img src="images/home.png" style="width:150px; height:55px;margin-top:0px;margin-left:80px;margin-right:150px"/></a>  
 
 
-<p style="font-family:Agency FB;font-size:20px;line-height:10%;text-align:left;margin-left:520px;color:white;margin-top:-30px"><b>
+<p style="font-family:Agency FB;font-size:20px;line-height:10%;text-align:left;margin-left:480px;color:white;margin-top:-30px"><b>
 
 <?php
 echo $_COOKIE['email']
