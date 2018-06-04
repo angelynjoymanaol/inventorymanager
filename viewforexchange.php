@@ -210,8 +210,17 @@ if ($_COOKIE['email']=="ruben.frane@dlsl.edu.ph")
 <a href="home.php">
 <img src="images/home.png" style="width:150px; height:55px;margin-top:0px;margin-left:150px;margin-right:150px"/></a>  
 
-<p style="font-family:Agency FB;font-size:20px;line-height:10%;text-align:right;margin-left:600px;color:white;margin-top:-30px"><b>Administrator</p></b>
+<p style="font-family:Agency FB;font-size:20px;line-height:10%;text-align:left;margin-left:520px;color:white;margin-top:-30px"><b>
 
+<?php
+echo $_COOKIE['email']
+
+?>
+
+&emsp;
+<a style="font-family:Agency FB;font-size:20px" href="logout.php">
+Logout
+</a></p></b>
 <?php
 }
 
@@ -226,7 +235,10 @@ if ($_COOKIE['password']=="dlsl1")
 
 header('Location:home2.php');
 }
-?>      </li>
+
+
+?>
+      </li>
      
  
       
