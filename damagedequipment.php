@@ -368,7 +368,7 @@ Logout
 </p>
 
 
-<p style="font-family:Agency FB;color:black;font-size:20px;line-height:120%;text-align:left; margin-left:500px">Item:
+<p style="font-family:Agency FB;color:black;font-size:20px;line-height:120%;text-align:left; margin-left:400px">Item:
 
 <select style="color:green; border-color:green;text-align:left;margin-left:90px" name="item">
 <?php
