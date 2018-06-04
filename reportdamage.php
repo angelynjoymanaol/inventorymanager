@@ -300,8 +300,9 @@ if ($select==0)
 {
 ?>
 
-<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:right;margin-right:50px;margin-top:-50px">No result
+<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:center;margin-top:60px">No result</p>
 <?php
+goto end;
 }
 
 $header=array('Date Filed','Person-in-charge','Office','Item', 'Quantity', 'Reason');
