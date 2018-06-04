@@ -324,8 +324,6 @@ Logout
 
 
 
-<a href="printinventory.php">
-<input type="image"<img src="pdf.png" style="width:200px; height:120px; margin-left: 150px;margin-top: -20px"/></a>
 </p></br>
 
 
