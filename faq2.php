@@ -143,7 +143,7 @@ goto end;}
         
         .main-body{
 	        width: 1300px;
-	        height: 800px;
+	        height: 750px;
 	        border-style: solid;
 	        border-width: 5px;
 	        border-color: #333;
@@ -293,32 +293,54 @@ Logout
 
 </br>
 
-<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:200px">Is my information secure? </p>
+<div id='container1'>
+<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:10px">Is the information in Inventory Manager secure? </p>
 </br>
-<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:300px">Yes. Make sure you choose a cloud-based service that uses the highest level of encryption, industry best practices,</br> and enterprise level security and hosting. And, one that takes care of the nightly backups and continuity of your data.</p>
-
-</br>
-<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:200px">Who can access the Inventory Manager? </p>
-</br>
-<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:300px">The onventory system is only available for the access of ICTC Staffs and administrator. The functions available are exclusive</br> for the use of ICTC staffs and administrators and error might take place if unauthorize people make changes to the inventory.</p>
+<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:20px;margin-right:10px">&emsp;Yes. Make sure you choose a cloud-based service that uses the highest level of encryption, industry best practices, and enterprise level security and hosting. And, one that takes care of the nightly backups and continuity of your data.</p>
+</div>
 
 
+<div id='container1'>
+<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:10px">Who can access the Inventory Manager? </p>
 </br>
-<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:200px">Will my work be easier if I use this system? </p>
-</br>
-<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:300px">Yes! Instead of combing through stacks of paper, spreadsheets, and Post-it notes, you can access everything instantly.</br> It is an organizational boon. Time that was spent on searching for the right information can now be used for making artwork.</p>
-</br>
+<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:20px;margin-right:10px">&emsp;The inventory system is only available for the access of ICTC Staffs and administrator. The functions available are exclusive for the use of ICTC staffs and administrators and error might take place if unauthorize people make changes to the inventory.</p>
+</div>
 
 
-<a href="faq.php">
-<p style="font-family:Agency FB;font-size:20px;line-height:10%;text-align:;left;margin-left:-800px;color:green;margin-top:10px"><b>Previous</p></b>
+<div id='container1'>
+<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:10px">Will my work be easier if I use this system? </p>
+</br>
+<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:20px;margin-right:10px">&emsp;Yes! Instead of combing through stacks of paper, spreadsheets, and Post-it notes, you can access everything instantly. It is an organizational boon. Time that was spent on searching for the right information can now be used for making artwork.</p>
+</br>
+</div>
 
+</br></br>
+<a href="faq.php"> 
+<center><input type="image" <img src="previous.png" style="width:90px; height:50px"/></a></center>
+	
 
 <?php
 
 end:
 
 ?>
+
+<style>
+#container1{
+	width:350px;
+	height:420px;
+border: 2px solid #999;
+	float:left;
+	background-color:#EFF8F1;
+	padding:1px;
+ text-decoration:none;
+	margin-left:50px;
+margin-right:15px;
+margin-bottom:45px;
+}#container1:hover{background-color:#DBFCDD;}
+
+
+</style>
 
 
 </div>

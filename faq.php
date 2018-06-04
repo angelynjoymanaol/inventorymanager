@@ -291,25 +291,34 @@ Logout
 
 
 </br>
+<div id='container1'>
 
-<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:200px">Can the inventory be viewed by different users at the same time? </p>
+<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:10px">How can I make a record of newly purchased equipment that is not in the inventory yet? </p>
+
+<center><input type="image" <img src="ill.png" style="width:300px; height:120px"/></center>
+</br><p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:20px;margin-right:10px">&emsp;Click on the Add new tool in the View Inventory. Fill up the required information and click Add. The item will be added to the inventory. Go to update section, and make a record.
 </br>
-<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:300px">Yes, but only if opened by two persons with different accounts. Confidential data are stored within the system</br> and can only be accessed by ICTC's authorized personnel.
+</div>
+
+<div id='container1'>
+<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:10px">What would happen if two users are accessing the inventory to record the same data concurrently? </p>
 </br>
+<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:20px">&emsp;The same performance will be givem by the system. It is an online system so issues are not likely to be encountered.</p>
+</div>
+
+<div id='container1'>
+<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:10px">How can I generate report? </p>
+</br>
+<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:20px;margin-right:10px">&emsp;Generating of report is only available for the administrator account. There is a section in the dashboard name "Generate Report". The administrator will be able to print the general report which includes the information of all equipment based on its status.
+</br></br>
+&emsp;If the admin wishes to print a copy of report with the inclusive date, just choose the start and end date of report and click on generate report. It will redirect to a page that summarizes the transaction within the given time, and it can be printed or downloaded as pdf.</p>
+</div>
 
 
-<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:200px">What would happen if two users are accessing the inventory to record the same data concurrently? </p>
-</br>
-<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:300px">The same performance will be givem by the system. It is an online system so issues are not likely to be encountered.</p>
-
-
-</br>
-<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:left;margin-left:200px">How will I be able to identify the offices that are associated with the inventory system? </p>
-</br>
-<p style="font-family:Agency FB;color:green;font-size:20px;line-height:120%;text-align:left;margin-left:300px">There is a drop-down menu beside the text in which you can input the offices in.</p>
-</br>
-<a href="faq2.php">
-<p style="font-family:Agency FB;font-size:20px;line-height:10%;text-align:right;margin-right:200px;color:green;margin-top:10px"><b>Next</p></b>
+</br></br>
+<a href="faq2.php"> 
+<center><input type="image" <img src="more.png" style="width:90px; height:50px"/></a></center>
+	
 
 
 <?php
@@ -317,6 +326,25 @@ Logout
 end:
 
 ?>
+
+
+<style>
+#container1{
+	width:350px;
+	height:420px;
+border: 2px solid #999;
+	float:left;
+	background-color:#EFF8F1;
+	padding:1px;
+ text-decoration:none;
+	margin-left:50px;
+margin-right:15px;
+margin-bottom:30px;
+}#container1:hover{background-color:#DBFCDD;}
+
+
+</style>
+
 
 
 </div>
