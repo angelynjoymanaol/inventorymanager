@@ -320,7 +320,7 @@ Logout
 
 
 
-&emsp;&emsp;&emsp;&emsp;V I E W&emsp; I N V E N T O R Y 
+V I E W&emsp; I N V E N T O R Y 
 
 
 
