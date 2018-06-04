@@ -315,7 +315,7 @@ Logout
 <input type="image"<img src="images/newtool.png" style="width:160px; height:60px; margin-top:20px;float:left; margin-left: 20px"/></a>
 
 
-<p style="font-family:Agency FB;color:black;font-size:50px;line-height:120%;text-align:left;margin-left:-50px"> 
+<p style="font-family:Agency FB;color:black;font-size:50px;line-height:120%;text-align:left;margin-left:200px"> 
 
 
 
