@@ -265,7 +265,7 @@ header('Location:home2.php');
 
 </br>
 <a style="color:green;" href="viewdamagedequipment.php"><p style="font-family:Agency FB;color:black;font-size:50px;line-height:120%;text-align:left;margin-left:250px;margin-top:-30px"> << </a>
-V I E W &emsp; D E P L O Y E D&emsp; E Q U I P M E N T
+V I E W &emsp; D A M A G E D&emsp; E Q U I P M E N T
 
 
 <a href="printdeployequipment.php">
