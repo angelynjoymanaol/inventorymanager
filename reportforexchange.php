@@ -268,11 +268,8 @@ header('Location:home2.php');
 V I E W &emsp;I T E M S&emsp; F O R&emsp;E X C H A N G E
 
 
-<a href="printdeployequipment.php">
-<input type="image"<img src="pdf.png" style="width:200px; height:120px; margin-left: 60px"/></a></p>
-
-
 <?php
+echo "<a href=\"reportforexchange2.php?begin={$_POST['begin']}&&last={$_POST['last']}\"><img src=\"pdf2.png \"  /></a>";
 
 $co=0;
 

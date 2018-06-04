@@ -269,7 +269,7 @@ V I E W &emsp; D E P L O Y E D&emsp; E Q U I P M E N T
 
 
 <?php
-echo "<a href=\"reportdeploy2.php?begin={$_POST['begin']}&&last={$_POST['last']}\"><img src=\"images/pdf.png\"  /></a>";
+echo "<a href=\"reportdeploy2.php?begin={$_POST['begin']}&&last={$_POST['last']}\"><img src=\"pdf2.png \"  /></a>";
 
 
 

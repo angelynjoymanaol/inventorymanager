@@ -268,14 +268,9 @@ header('Location:home2.php');
 V I E W &emsp; D E P L O Y E D&emsp; E Q U I P M E N T
 
 
-<a href="printdeployequipment.php">
-<input type="image"<img src="pdf.png" style="width:200px; height:120px; margin-left: 60px"/></a></p>
-
-
-
-
-
 <?php
+echo "<a href=\"reportmissing2.php?begin={$_POST['begin']}&&last={$_POST['last']}\"><img src=\"pdf2.png \"  /></a>";
+
 
 $co=0;
 

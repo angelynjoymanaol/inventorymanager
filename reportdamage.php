@@ -265,17 +265,12 @@ header('Location:home2.php');
 
 </br>
 <a style="color:green;" href="viewdamagedequipment.php"><p style="font-family:Agency FB;color:black;font-size:50px;line-height:120%;text-align:left;margin-left:250px;margin-top:-30px"> << </a>
-V I E W &emsp; D A M A G E D&emsp; E Q U I P M E N T
-
-
-<a href="printdeployequipment.php">
-<input type="image"<img src="pdf.png" style="width:200px; height:120px; margin-left: 60px"/></a></p>
-
-
+V I E W &emsp; D E P L O Y E D&emsp; E Q U I P M E N T
 
 
 
 <?php
+echo "<a href=\"reportdamage2.php?begin={$_POST['begin']}&&last={$_POST['last']}\"><img src=\"pdf2.png \"  /></a>";
 
 $co=0;
 
