@@ -1,7 +1,7 @@
 <?php
 
 // Enter your API key below. Do not edit anything else. See phptopdf.com for details.
-define("API_KEY", "9ddeed2c21d18023621fe139c9730167628b0f5c");
+define("API_KEY", "8bc4299d1d5e03fc8b221216891d6e801ec95ace");
 //////////////////////////////////////////////////////////////////////////////////
 // DO NOT EDIT BELOW THIS LINE
 //////////////////////////////////////////////////////////////////////////////////
