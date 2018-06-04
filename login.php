@@ -181,13 +181,6 @@
         <a class="nav-link" href="home.php">Home <span></span><span></span></a>
       </li>
       
-      <li class="nav-item active">
-        <a class="nav-link" href="about.php">ICTC Overview</a>
-      </li>
-      
-      <li class="nav-item active">
-        <a class="nav-link" href="faq.php">View FAQ</a>
-      </li>
      
  
       
