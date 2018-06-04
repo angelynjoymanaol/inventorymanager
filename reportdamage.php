@@ -288,7 +288,7 @@ include 'dbconnect.inc';
 
 
 
-$perpage = 8;
+$perpage = 5;
 
 $start = (isset($_GET['id'])) ? $_GET['id'] : 0;
 
@@ -296,7 +296,7 @@ $TotalRec = mysql_result(mysql_query("SELECT COUNT(*) FROM damage WHERE date >= 
 
 $select = "SELECT * FROM damage WHERE date >= '$_POST[begin]'  AND date <= '$_POST[last]' LIMIT $start, $perpage";
 $result = mysql_query($select) or die(mysql_error());
-if ($select==0)
+if ($TotalRec==0)
 {
 ?>
 

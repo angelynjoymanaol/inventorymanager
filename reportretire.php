@@ -141,7 +141,7 @@ goto end;}
         
         .main-body{
 	        width: 1300px;
-	        height: 1100px;
+	        height: 500px;
 	        border-style: solid;
 	        border-width: 5px;
 	        border-color: #333;
@@ -289,7 +289,7 @@ include 'dbconnect.inc';
 
 
 
-$perpage = 8;
+$perpage = 5;
 
 $start = (isset($_GET['id'])) ? $_GET['id'] : 0;
 
@@ -298,7 +298,14 @@ $TotalRec = mysql_result(mysql_query("SELECT COUNT(*) FROM retire WHERE date >= 
 $select = "SELECT * FROM retire WHERE date >= '$_POST[begin]'  AND date <= '$_POST[last]' LIMIT $start, $perpage";
 $result = mysql_query($select) or die(mysql_error());
 
+if ($TotalRec==0)
+{
+?>
 
+<p style="font-family:Agency FB;color:green;font-size:30px;line-height:120%;text-align:center;margin-top:60px">No result</p>
+<?php
+goto end;
+}
 
 
 $header=array('Date Reported','Person-in-charge','Office','Item', 'Quantity');
